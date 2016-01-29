@@ -1,0 +1,150 @@
+#top_navigation{
+	height:80px;
+	width:auto;
+	background:rgb(94, 26, 7);
+}
+
+.menu{
+	height:80px;
+	width:160px;
+	float:left;
+	background:rgb(94, 26, 7);
+	transition: all 0.5s ease-in-out 0s;
+}
+    .menu:hover{
+        width:300px;
+    }
+    .menu:hover .p1{
+	    color:#fff18a;
+    }
+    .menu:hover > #home{
+        opacity: 1;
+        margin-left: 150px;
+        transition: all 0.4s linear ;
+    }
+
+.menu1{
+	height:80px;
+	width:160px;
+	float:left;
+	background:rgb(85, 75, 61);
+	transition: all 0.5s ease-in-out 0s;
+}
+    .menu1:hover{
+	    width:300px;
+        
+    }
+    .menu1:hover .p1{
+	    color:#fff18a;
+    }
+    .menu1:hover > #categories{
+        opacity: 1;
+        margin-left: 150px;
+        transition: all 0.4s linear ;
+    }
+
+.menu2{
+	height:80px;
+	width:160px;
+	float:left;
+	background:rgb(94, 26, 7);
+	transition: all 0.5s ease-in-out 0s;
+}
+    .menu2:hover{
+	    width:300px;
+    }
+    .menu2:hover .p1{
+	    color:#fff18a;
+    }
+    .menu2:hover > #events{
+        opacity: 1;
+        margin-left: 150px;
+        transition: all 0.4s linear ;
+    }
+
+.menu3{
+	height:80px;
+	width:160px;
+	float:left;
+	background:rgb(85, 75, 61);
+	transition: all 0.5s ease-in-out 0s;
+}
+    .menu3:hover{
+	    width:300px;    
+    }
+    .menu3:hover .p1{
+	    color:#fff18a;
+    }
+    .menu3:hover > #order{
+        opacity: 1;
+        margin-left: 150px;
+        transition: all 0.4s linear ;
+    }
+
+.menu4{
+	height:80px;
+	width:160px;
+	float:left;
+	background:rgb(94, 26, 7);
+	transition: all 0.5s ease-in-out 0s;
+}
+    .menu4:hover{
+	    width:340px;    
+    }
+    .menu4:hover .p1{
+	    color:#fff18a;
+    }
+    .menu4:hover > #about{
+        opacity: 1;
+        margin-left: 150px;
+        transition: all 0.4s linear ;
+    }
+
+.p1{
+	font-family:Impact,sans-serif;
+	font-size:25px;
+    color: rgba(255, 241, 138, 0.72);
+	position:relative;
+	width:100px;
+	top:7px;
+	left:11px;
+    float: left;
+	transition: all 0.2s ease-in-out 0s;
+}
+
+.image1{
+    height: 80px;
+    width: 124px;
+    box-shadow:inset 0px 0px 10px 10px rgb(94, 26, 7);
+    opacity: 0;
+    transition: all 0.4s linear ;
+}
+    #home{
+        background-image: url(home.jpg);
+    }
+    #events{
+        background-image: url(events.jpg);
+    }
+    #about{
+        background-image: url(about.jpg);
+    }
+
+.image2{
+    height: 80px;
+    width: 124px;
+    box-shadow:inset 0px 0px 10px 10px rgb(85, 75, 61);
+    background-image: url(home.jpg);
+    opacity: 0;
+    transition: all 0.4s linear ;
+}
+    #categories{
+        background-image: url(categories.jpg);
+    }
+    #order{
+        background-image: url(promotions.jpg);
+    }
+
+.secondary_navigation{
+    border-radius: 12px 12px 0 0;   
+}
+

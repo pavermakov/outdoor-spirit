@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+        <title>Order</title>
+        <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+        <link type="text/css" rel="stylesheet" href="navbar/navigation.css"/>
+        <script type="text/javascript" src="header/header.js"></script>
+        <script type="text/javascript" src="categories/jquery-1.11.1.min.js"></script>
+        <script type="text/javascript" src="about/validation.js"></script>
+        <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+        <link rel="icon" href="favicon.png" type="image/x-icon" />
+    </head>
+    
+    <body>
+        <p id="headerText">Outdoor spirit</p>
+        <div id="big_wrapper">
+            <nav class="secondary_navigation" id="top_navigation">
+                
+                <a href="index.html">
+                    <div class="menu" style="border-radius:10px;">			
+                        <p class="p1">HOME</p>
+                        <div class="image1" id="home"></div>
+                    </div>
+                </a>
+                
+                <a href="categories.html">
+                    <div class="menu1" >			
+                        <p class="p1">CATEGORIES</p>
+                        <div class="image2" id="categories"></div>
+                    </div>
+                </a>
+                
+                <a href="events.html">
+                    <div class="menu2">			
+                        <p class="p1">EVENTS</p>
+                        <div class="image1" id="events"></div>
+                    </div>
+                </a>
+                
+                <div class="menu3">			
+				    <p class="p1">ORDER</p>
+                    <div class="image2" id="order"></div>
+			    </div>
+                
+                <a href="about.html">
+                    <div class="menu4">			
+                        <p class="p1">ABOUT</p>	
+                        <div class="image1" id="about"></div>
+                    </div>
+                </a>
+            </nav>
+            
+            <section id="main_section">
+                
+                <article>
+                    <p id="article_header">ORDER OUR CATALOG</p>
+                    <hr />
+                    <p id="article_content">
+                        We are glad that you have chosen us as your outdoor gear supplier.Please, fill out the form below, and we will send you our catalog. You can also subscribe to our news seller to be aware of incoming deals and sales!<br /><br />
+                        
+                        <form>
+                            <img src="order/catalog.jpg" alt="catalog" style="float:right;border-radius:10px;" />
+                            First Name :<br />
+                            <input id="input" type="text" name="firstname" /><br /><br />
+                            Last Name :<br />
+                            <input id="input" type="text" name="lastname" /><br /><br />
+                            Age :<br />
+                            <input id="input" type="text" name="age" /><br /><br />
+                            Gender :<br />
+                            <input type="radio" name="gender" value="male" />Male
+                            <input type="radio" name="gender" value="female" />Female<br /><br />
+                            E-mail Address : <br />
+                            <input id="input" type="text" name="email" /><br /><br />
+                            <input type="checkbox" name="catalog" checked /> Please, send me a catalog<br /><br />
+                            <input type="checkbox" name="news" checked /> Subscribe me to a News Seller<br /><br />
+                            Comments :<br />
+                            <textarea id="input" name="comments" rows="5" cols="30"></textarea><br /><br />
+                            <button type="button" onclick="ResetForm()" >Reset</button>
+                            <button type="button" onclick="SubmitForm()" >Submit</button><span id="confirmation">Your form has been submitted!</span>
+                            
+                        </form>
+                        
+                    </p>
+                </article>
+                
+            </section>
+            
+            <aside id="side_bar">
+                <h2> OUTDOOR SPIRIT&trade; is</h2>
+                <hr />
+                <article>
+                    <ul>
+                        <li>World's best Brands</li>
+                        <img id="destination" class="news_image" src="order/brands.jpg" alt="brands"  /><br />
+                        
+                        <li>A wide variety of outdoor goods</li>
+                        <img id="destination" class="news_image" src="order/goods.jpg" alt="goods"  /><br />
+                        
+                        <li>Fast and efficient delivery service</li>
+                        <img id="destination" class="news_image" src="order/delivery.png" alt="delivery"  /><br />
+                        
+                        <li>Reliable customer support</li>
+                        <img id="destination" class="news_image" src="order/support.jpg" alt="support"  /><br />
+                    </ul>
+                </article>
+            </aside>
+            
+            <footer id="the_footer">Copyright OUTDOOR SPIRIT&trade; 2014</footer>
+        </div>
+    </body>
+    
+</html>
