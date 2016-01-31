@@ -1,5 +1,5 @@
 # Outdoor Spirit
-A website for a sport equipment store. On of the first websites I have ever created for one of my coding class.
+A website for a sport equipment store. One of the first websites I have ever created for one of my coding class.
 
 Take a look at it [here]
 
